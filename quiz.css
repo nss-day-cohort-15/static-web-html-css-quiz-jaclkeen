@@ -2,11 +2,12 @@ body{
   font-size: 1.1em;
   margin-left: 7%;
 }
+
 .card {
   display: inline-block;
   border: 1px solid lightblue;
   width: 30%;
-  height: 595px;
+  height: 750px;
   background-color: azure;
   margin: 1% 2% 1% 0;
   float: left;
@@ -20,12 +21,14 @@ body{
   text-align: center;
 }
 
+.image {
+  margin-left: 35%;
+}
+
 img {
-  display: block;
   padding-top: 2%;
   height: 5%;
-  width: 30%;
-  margin: 0 auto;
+  width: 50%;
 }
 
 .description {
@@ -35,14 +38,12 @@ img {
 
 .info {
   font-weight: bold;
-  margin-left: 2%;
-
 }
 
 .info header {
-  font-weight: bold;
   text-decoration: underline;
   font-size: 1.25em;
+  margin-left: 1%;
 }
 
 .availability {
@@ -55,6 +56,7 @@ img {
   font-weight: normal;
 }
 
-.info span {
-  padding: 1.2%;
+.info p {
+  font-size: .8em;
+  margin-left: 3%;
 }
