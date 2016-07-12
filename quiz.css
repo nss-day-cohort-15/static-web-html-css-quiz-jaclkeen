@@ -1,0 +1,62 @@
+body{
+  font-size: 1.1em;
+  margin-left: 7%;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid lightblue;
+  width: 30%;
+  height: 751px;
+  background-color: azure;
+  margin: 1% 2% 1% 0;
+  float: left;
+}
+
+.name {
+  border: 1px dotted lightblue;
+  padding: 2%;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image {
+  margin-left: 35%;
+}
+
+img {
+  padding-top: 2%;
+  height: 5%;
+  width: 50%;
+}
+
+.description {
+  text-align: justify;
+  padding: 0 1% 0 1%;
+}
+
+.info {
+  font-weight: bold;
+}
+
+.info header {
+  text-decoration: underline;
+  font-size: 1.25em;
+  margin-left: 1%;
+}
+
+.availability {
+  width: 100%;
+  background-color: #a9a9a9;
+  color: #FFFF00;
+}
+
+.info footer {
+  font-weight: normal;
+}
+
+.info p {
+  font-size: .8em;
+  margin-left: 3%;
+}
